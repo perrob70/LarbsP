@@ -1,0 +1,9 @@
+2025/03/19-10:34:08.146 1388c Reusing MANIFEST /home/perrob/.config/microsoft-edge/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/03/19-10:34:08.146 1388c Recovering log #6
+2025/03/19-10:34:08.281 1388c Reusing old log /home/perrob/.config/microsoft-edge/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/000006.log 
+2025/03/19-10:34:09.446 13946 Compacting 1@1 + 1@2 files
+2025/03/19-10:34:10.398 13946 Generated table #9@1: 2898 keys, 1305777 bytes
+2025/03/19-10:34:10.398 13946 Compacted 1@1 + 1@2 files => 1305777 bytes
+2025/03/19-10:34:10.554 13946 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/19-10:34:10.555 13946 Delete type=2 #5
+2025/03/19-10:34:10.555 13946 Delete type=2 #7

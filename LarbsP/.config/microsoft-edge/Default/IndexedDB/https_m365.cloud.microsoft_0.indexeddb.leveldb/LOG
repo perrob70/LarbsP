@@ -1,0 +1,14 @@
+2025/03/10-12:42:19.415 223c5 Creating DB /home/perrob/.config/microsoft-edge/Default/IndexedDB/https_m365.cloud.microsoft_0.indexeddb.leveldb since it was missing.
+2025/03/10-12:42:19.526 223c5 Reusing MANIFEST /home/perrob/.config/microsoft-edge/Default/IndexedDB/https_m365.cloud.microsoft_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/10-12:42:44.925 223c5 Level-0 table #5: started
+2025/03/10-12:42:46.030 223c5 Level-0 table #5: 2442479 bytes OK
+2025/03/10-12:42:46.148 223c4 Current memtable full; waiting...
+2025/03/10-12:42:46.425 223c5 Delete type=0 #3
+2025/03/10-12:42:46.427 223c5 Level-0 table #7: started
+2025/03/10-12:42:46.692 223c5 Level-0 table #7: 2423939 bytes OK
+2025/03/10-12:42:46.847 223c5 Delete type=0 #4
+2025/03/10-17:12:02.290 223c5 Compacting 1@1 + 1@2 files
+2025/03/10-17:12:04.369 223c5 Generated table #8@1: 692 keys, 2133322 bytes
+2025/03/10-17:12:05.350 223c5 Generated table #9@1: 3414 keys, 1996084 bytes
+2025/03/10-17:12:05.350 223c5 Compacted 1@1 + 1@2 files => 4129406 bytes
+2025/03/10-17:12:05.641 223c5 compacted to: files[ 0 0 2 0 0 0 0 ]

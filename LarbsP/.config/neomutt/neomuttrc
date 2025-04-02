@@ -1,0 +1,18 @@
+# vim: filetype=muttrc
+
+# Modular config
+source /home/perrob/.config/neomutt/settings
+source /home/perrob/.config/neomutt/colors
+source /home/perrob/.config/neomutt/mappings
+
+# Base folder setup
+set folder = "~/.mail/gmail"
+set spoolfile = "+INBOX"
+set record = "+[Gmail]/Sent Mail"
+set postponed = "+[Gmail]/Drafts"
+set trash = "+[Gmail]/Trash"
+
+# Identity
+set from = "perruschmutt@gmail.com"
+set realname = "Perry"
+folder-hook . "set sort=reverse-date"

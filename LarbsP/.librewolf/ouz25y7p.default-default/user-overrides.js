@@ -1,0 +1,1 @@
+/home/perrob/.config/firefox/larbs.js

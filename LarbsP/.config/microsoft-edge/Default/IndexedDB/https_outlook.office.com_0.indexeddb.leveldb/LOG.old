@@ -1,0 +1,8 @@
+2025/03/10-17:13:26.630 223c4 Reusing MANIFEST /home/perrob/.config/microsoft-edge/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/10-17:13:26.631 223c4 Recovering log #12
+2025/03/10-17:13:26.631 223c4 Reusing old log /home/perrob/.config/microsoft-edge/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/000012.log 
+2025/03/10-17:13:26.632 223c4 Delete type=2 #11
+2025/03/10-17:13:27.128 223c5 Level-0 table #17: started
+2025/03/10-17:13:27.128 223c5 Level-0 table #17: 0 bytes OK
+2025/03/10-17:13:27.729 223c5 Delete type=0 #12
+2025/03/10-17:13:27.730 223c5 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

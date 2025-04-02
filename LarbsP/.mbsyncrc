@@ -1,0 +1,61 @@
+IMAPAccount gmail
+Host imap.gmail.com
+User perruschmutt@gmail.com
+Pass zvabdtytmxkwrzwd
+TLSType IMAPS
+AuthMechs LOGIN
+
+IMAPStore gmail-remote
+Account gmail
+
+MaildirStore gmail-local
+Path ~/.mail/gmail/
+Inbox ~/.mail/gmail/INBOX
+SubFolders Verbatim
+# Do NOT flatten — use default Gmail-style folder structure
+
+Group gmail
+
+Channel inbox
+Far :gmail-remote:"INBOX"
+Near :gmail-local:"INBOX"
+Create Both
+SyncState *
+
+Channel allmail
+Far :gmail-remote:"[Gmail]/All Mail"
+Near :gmail-local:"[Gmail]/All Mail"
+Create Both
+SyncState *
+
+Channel sent
+Far :gmail-remote:"[Gmail]/Sent Mail"
+Near :gmail-local:"[Gmail]/Sent Mail"
+Create Both
+SyncState *
+
+Channel drafts
+Far :gmail-remote:"[Gmail]/Drafts"
+Near :gmail-local:"[Gmail]/Drafts"
+Create Both
+SyncState *
+
+Channel trash
+Far :gmail-remote:"[Gmail]/Trash"
+Near :gmail-local:"[Gmail]/Trash"
+Create Both
+SyncState *
+
+Channel spam
+Far :gmail-remote:"[Gmail]/Spam"
+Near :gmail-local:"[Gmail]/Spam"
+Create Both
+SyncState *
+
+Channel starred
+Far :gmail-remote:"[Gmail]/Starred"
+Near :gmail-local:"[Gmail]/Starred"
+Create Both
+SyncState *
+
+

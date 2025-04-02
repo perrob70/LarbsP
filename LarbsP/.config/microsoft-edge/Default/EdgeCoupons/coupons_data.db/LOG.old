@@ -1,0 +1,6 @@
+2025/03/19-10:30:24.671 1388c Reusing MANIFEST /home/perrob/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/03/19-10:30:24.672 1388c Recovering log #7
+2025/03/19-10:30:24.738 1388c Reusing old log /home/perrob/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/000007.log 
+2025/03/19-10:30:59.263 1388d Level-0 table #11: started
+2025/03/19-10:30:59.608 1388d Level-0 table #11: 670536 bytes OK
+2025/03/19-10:30:59.913 1388d Delete type=0 #7

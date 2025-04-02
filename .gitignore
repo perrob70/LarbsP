@@ -1,0 +1,17 @@
+# Ignore nvim plugins
+.config/nvim/plugged/
+
+# Ignore swap and temp files
+*~
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Backup configs or junk
+.config/backup/

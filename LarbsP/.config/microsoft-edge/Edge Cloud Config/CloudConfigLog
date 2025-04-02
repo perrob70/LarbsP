@@ -1,0 +1,36 @@
+{
+   "feature_content": {
+      "operation_config": "{\r\n  \"data\": {\r\n    \"edge_operation_config\": {\r\n      \"edge_ai_assistant\": {\r\n        \"side_pane_config\": {\r\n          \"1\": {\r\n            \"js\": \"https://edge-cloud-resource-static.azureedge.net/consumer/ai-assistant/alpha/v1/static/js/sidepane.d5bcd879.js\"\r\n          }\r\n        },\r\n        \"ntp_config\": {\r\n          \"1\": {\r\n            \"js\": \"https://edge-cloud-resource-static.azureedge.net/consumer/ai-assistant/alpha/v1/static/js/ntp.c1b72372.js\"\r\n          }\r\n        },\r\n        \"real_name_auth_config\": {\r\n          \"1\": {\r\n            \"js\": \"https://edge-cloud-resource-static.azureedge.net/consumer/ai-assistant/alpha/v1/static/js/realNameAuth.9b5fc58a.js\"\r\n          }\r\n        },\r\n        \"pdf_config\": {\r\n          \"1\": {\r\n            \"js\": \"https://edge-cloud-resource-static.azureedge.net/consumer/ai-assistant/alpha/v1/static/js/pdf.js\"\r\n          }\r\n        },\r\n        \"video_page_config\": {\r\n          \"www.youtube.com\": {\r\n            \"1\": {\r\n              \"js\": \"https://edge-cloud-resource-static.azureedge.net/consumer/ai-assistant/alpha/v1/static/js/youtube.js\"\r\n            }\r\n          },\r\n          \"www.bilibili.com\": {\r\n            \"1\": {\r\n              \"js\": \"https://edge-cloud-resource-static.azureedge.net/consumer/ai-assistant/alpha/v1/static/js/bilibili.js\"\r\n            }\r\n          }\r\n        },\r\n        \"version\": \"1.0.2\"\r\n      },\r\n      \"edge_drop\": {\r\n        \"manifest_stable\": {\r\n          \"js\": \"https://edge-consumer-static.azureedge.net/edropstatic/2025/02/25/1/static/js/main.915ce316.js\",\r\n          \"css\": \"https://edge-consumer-static.azureedge.net/edropstatic/2025/02/25/1/static/css/main.2a8c2845.css\",\r\n          \"version\": 138\r\n        },\r\n        \"manifest_canary\": {\r\n          \"js\": \"https://edge-consumer-static.azureedge.net/edropstatic/2025/02/25/1/static/js/main.915ce316.js\",\r\n          \"css\": \"https://edge-consumer-static.azureedge.net/edropstatic/2025/02/25/1/static/css/main.2a8c2845.css\",\r\n          \"version\": 138\r\n        },\r\n        \"version\": \"1.0.27\"\r\n      },\r\n      \"edge_media_v2\": {\r\n        \"manifest_canary\": {\r\n          \"sidebar\": {\r\n            \"allowlist_for_entire_experience\": [\r\n              \"spotify.com\",\r\n              \"youtube.com\"\r\n            ]\r\n          }\r\n        },\r\n        \"manifest_stable\": {\r\n          \"sidebar\": {\r\n            \"allowlist_for_entire_experience\": [\r\n              \"spotify.com\",\r\n              \"youtube.com\"\r\n            ]\r\n          }\r\n        },\r\n        \"version\": \"1.0.1\"\r\n      },\r\n      \"edge_mouse_gesture\": {\r\n        \"blocklist\": [\r\n          \"https://earth.google.com\",\r\n          \"https://www.figma.com\",\r\n          \"https://map.baidu.com\",\r\n          \"https://maps.gaode.com\",\r\n          \"https://app.diagrams.net\"\r\n        ],\r\n        \"version\": \"1.0.2\"\r\n      },\r\n      \"edge_screenshot\": {\r\n        \"dynamic_config\": {\r\n          \"resources\": {\r\n            \"2\": {\r\n              \"untrusted_js\": \"https://edge-consumer-static.azureedge.net/screenshot/alpha2024/v9.js\"\r\n            }\r\n          }\r\n        }\r\n      }\r\n    }\r\n  },\r\n  \"version\": \"1.1.25\"\r\n}"
+   },
+   "history_infos": {
+      "2025/3/23 9:18:52:466UTC": {
+         "action": "Check",
+         "md5": "GGsaCyXCYnduY1fUnwywjA==",
+         "message": "Remote MD5:GGsaCyXCYnduY1fUnwywjA==, Config updated.. ",
+         "success": true,
+         "time": "2025/3/23 9:18:52:466UTC",
+         "url": "Dp0/pJywAxT7OJsto1cFSzyFmeCXF1MTWQxyMdCGNSot5r+6T9LG9JJdrs1e0ZIXgvH1yCYlP0qQouad5+6zlkVwYg8kAPu0lTwTAAjRKM7ZsXsyXknid4UZncvIknrbDrDnqwG452Y="
+      },
+      "2025/3/23 9:18:52:490UTC": {
+         "action": "Fetch",
+         "md5": "8YCAQXI5ca6uC/Mz9lDhJQ==",
+         "message": "Remote MD5: GGsaCyXCYnduY1fUnwywjA==, Fetched to local",
+         "success": true,
+         "time": "2025/3/23 9:18:52:490UTC",
+         "url": "Dp0/pJywAxT7OJsto1cFSzyFmeCXF1MTWQxyMdCGNSot5r+6T9LG9JJdrs1e0ZIXgvH1yCYlP0qQouad5+6zlkVwYg8kAPu0lTwTAAjRKM7ZsXsyXknid4UZncvIknrbDrDnqwG452Y="
+      },
+      "2025/3/23 9:18:52:591UTC": {
+         "action": "Fetch",
+         "md5": "NwShblDy9nyCOLuW4q7zbw==",
+         "message": "Remote MD5: NwShblDy9nyCOLuW4q7zbw==, Fetched to local.",
+         "success": true,
+         "time": "2025/3/23 9:18:52:591UTC",
+         "url": "Dp0/pJywAxTtKJ0851dHQS2G0byfDV8URBx4eteTJC5q6/SvGsPR95ZMpdxf3JsM2PHPzSg+NVfYkvma5uq1iU9sTkIhHfKzR6bSybby3oy9Y8hqfuCzy4SCNT6MT+zkpDMZGnk5NJ+1ZPPOEgKdHsuTj455rg=="
+      }
+   },
+   "last_fetch_cycle_time": {
+      "complete": "2025/3/23 9:18:52:591UTC",
+      "end": "2025/3/23 9:18:52:591UTC",
+      "operation_config": "2025/3/23 9:18:52:591UTC"
+   }
+}

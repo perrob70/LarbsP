@@ -1,0 +1,5 @@
+[Unit]
+Description=Sync mail with mbsync
+
+[Service]
+ExecStart=/usr/bin/mbsync -a
