@@ -6,11 +6,12 @@
 
 ### OPTIONS AND VARIABLES ###
 
-dotfilesrepo="https://github.com/lukesmithxyz/voidrice.git"
-progsfile="https://raw.githubusercontent.com/LukeSmithxyz/LARBS/master/static/progs.csv"
+dotfilesrepo="https://perrob70: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@github.com/perrob70/LarbsP.git"
+progsfile="https://raw.githubusercontent.com/perrob70/LarbsP/main/progs.csv"
 aurhelper="yay"
-repobranch="master"
+repobranch="main"
 export TERM=ansi
+
 
 rssurls="https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtNXNHZ0pPVENnQVAB?hl=nl&amp;gl=NL&amp;ceid=NL%3Anl "nieuws" "~Google nieuws"
 https://bsky.app/profile/did:plc:esuprtqiivckuufea5jclh77/rss "bluesky" "nieuws" "~Bluesky@RTL nieuws"
@@ -178,8 +179,9 @@ pipinstall() {
 }
 
 installationloop() {
-	([ -f "$progsfile" ] && cp "$progsfile" /tmp/progs.csv) ||
-		curl -Ls "$progsfile" | sed '/^#/d' >/tmp/progs.csv
+	([ -f "$progsfile" ] && cp "$progsfile" /tmp/progs.csv) || \
+                curl -H "Authorization: token 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" \
+     -Ls "$progsfile" | sed '/^#/d' >/tmp/progs.csv
 	total=$(wc -l </tmp/progs.csv)
 	aurinstalled=$(pacman -Qqm)
 	while IFS=, read -r tag program comment; do
